@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,600;0,800;0,900;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Jost", sans-serif;
+}
+
+.custom {
+  text-align: justify;
+}
+
+#sect {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.log {
+  border: 2px solid #DD5E98;
+}
+
+.log:hover {
+  background-color: #DD5E98;
+  color: white;
+}
+
+.view-more {
+  border: 2px solid #86A988;
+}
+
+.view-more:hover {
+  background-color: #86A988;
+  color: white;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.hero {
+  background-color: #faf2f6;
+}
+
+.browse {
+  background-color: #f7e3ed;
+}
+
+.get {
+  background-color: #86A988;
+}
+
+.get:hover {
+  background-color: #627b63;
+}
+
+.view {
+  background-color: #DD5E98;
+}
+
+.view:hover {
+  background-color: #8b2854;
+}
+
+.check {
+  background-color: #86A988;
+}
+
+.check:hover {
+  background-color: #627b63;
+}
+
+/*fefafc*/
+/*@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}*/
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1750px);
+  }
+}
+.slider {
+  height: 250px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  /*&::before,
+  &::after {
+  	@include white-gradient;
+  	content: "";
+  	height: 100px;
+  	position: absolute;
+  	width: 200px;
+  	z-index: 2;
+  }*/
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  gap: 40px;
+  width: 3500px;
+}
+.slider .slide {
+  height: 200px;
+  width: 150px;
+}
+
+#sect {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}/*# sourceMappingURL=style.css.map */

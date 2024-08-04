@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@400;500;600;700&display=swap');
+
+/*font-family: 'Noto Sans Vithkuqi', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+.fund {  font-family: 'Playfair Display', serif;  font-weight: 800; }    .text-justify {text-align: justify;}
+
+.create { font-family: 'Noto Sans Vithkuqi', sans-serif;}   .sect {  background-color: #f7f9fd;  }
+
+.easy {background-color: #f0f4fd;  border-color: rgb(77, 132, 255); border: 1px dashed rgb(77, 132, 255); }
+
+.blue {background-color: #021140;}   .blue2 {background-color: #021140;}   .green {background-color: #44a050;}
+
+.blue2:hover {background-color: #0140ff;}  ::placeholder {font-size: small;}
+
+select {  -webkit-appearance: none;   -moz-appearance: none;   appearance: none;   padding-left: 20px;   }
+
+
+/*Accordion*/
+.accordion-button:hover { background-color: #f0f4fd;}
+
+.accordion {  background-color: #fff;  color: #001140;  cursor: pointer;  text-align: left;  border: none;  
+    outline: none;  transition: 0.4s;
+}
+
+.active, .accordion:hover {  background-color: #f0f4fd;  }
+
+.panel {max-height: 0;  overflow: hidden;  transition: max-height 0.2s ease-out;  font-family: 'Catamaran';
+    border-left: 1px dashed grey;
+}

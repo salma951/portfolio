@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadHaven</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f82f7d87a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg pt-3 ps-4 pe-5">
+        <!-- Navbar brand -->
+        <a href="#" class="navbar-brand">
+            <i class="fa-solid fa-book-open fa-xl" style="color: #DD5E98;"></i> &nbsp;&nbsp;<b class="fs-3">ReadHaven</b>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars fa-lg" style="color: #000000;"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item pt-2 ps-4">
+                    <a class="nav-link text-dark text-uppercase" href="#">home</a>
+                </li>
+
+                <li class="nav-item pt-2 ps-4 pe-2">
+                    <a class="nav-link text-dark text-uppercase" href="#">shop</a>
+                </li>
+
+                <li class="nav-item pt-2 ps-4 pe-2">
+                    <a class="nav-link text-dark text-uppercase" href="#">promotions</a>
+                </li>
+
+                <li class="nav-item ps-4">
+                    <a class="nav-link" href="#">
+                        <button type="button" class="btn btn-white ps-4 pe-4 log rounded-pill">Login</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--end of nav-->
+
+    <!--hero section-->
+    <div class="row d-flex flex-row justify-content-center pt-5 pb-5 mt-3 hero">
+        <!--hero text-->
+        <div class="col-md-5 pt-5 order-md-2">
+            <img class="img-fluid" src="img/hero img.png" width="450px" height="552px">
+        </div>
+
+        <!--hero image-->
+        <div class="col-md-5 p-5 align-self-center order-md-1">
+            <p>Discover the power of reading</p>
+            <h1 class="fw-bold lh-base">Elevate Your Reading Experience</h1>
+            <button type="button" class="btn get rounded-2 text-white ps-4 pe-4 mt-3">Get Started</button>
+        </div>
+    </div>
+    <!--end of hero section-->
+
+
+    <!--top trending-->
+    <div class="p-5 text-center">
+        <h1 class="pt-4">Top Trending Books</h1>
+        <p>Most Popular Reads of the Year</p>
+        <button type="button" class="btn log btn-white ps-4 pe-4 rounded-pill">View All&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <!--end of trending-->
+
+    <!--carousel-->
+    <div class="slider container-lg w-75">
+        <div class="slide-track pt-4 container-fluid">
+          <div class="slide">
+            <img class="img-fluid" src="img/captivated hearts.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/astral.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/letha.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/voyage.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/chasing.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/child.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/captivated hearts.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/astral.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/letha.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/voyage.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/chasing.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/child.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/captivated hearts.png" width="150px" height="200px">
+          </div>
+          <div class="slide">
+            <img class="img-fluid" src="img/astral.png" width="150px" height="200px">
+          </div>
+        </div>
+    </div><br>
+    <!--end of slider-->
+
+
+    <!--browse genres-->
+    <section class="container-fluid w-100 p-5 mt-5">
+        <div class="container w-100 p-5">
+            <h1 class="fw-bold text-center">Browse Genres</h1>
+            
+            <!--start of flexbox-->
+            <div class="row d-flex flex-row justify-content-center pt-5">
+                <div class="col-md-5">
+                    <div class="row d-flex flex-row justify-content-center">
+                        <div class="col-6 text-center">
+                            <img class="img-fluid" src="img/captivated hearts.png" width="150px" height="150px">
+                            <p class="pt-2"><a href="#" class="text-dark">Romance</a></p>
+                        </div>
+                        <div class="col-6 text-center">
+                            <img class="img-fluid" src="img/letha.png" width="150px" height="150px">
+                            <p class="pt-2"><a href="#" class="text-dark">Thriller</a></p>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <img class="img-fluid" src="img/child.png" width="360px" height="170px">
+                        <p class="pt-2"><a href="#" class="text-dark">Children's Books</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="text-center">
+                        <img class="img-fluid" src="img/voyage.png" width="360px" height="170px">
+                        <p class="pt-2"><a href="#" class="text-dark">Sci-Fi</a></p>
+                    </div>
+
+                    <div class="row d-flex flex-row justify-content-center">
+                        <div class="col-6 text-center">
+                            <img class="img-fluid" src="img/chasing.png" width="150px" height="150px">
+                            <p class="pt-2"><a href="#" class="text-dark">Young Adult</a></p>
+                        </div>
+                        <div class="col-6 text-center">
+                            <img class="img-fluid" src="img/astral.png" width="150px" height="150px">
+                            <p class="pt-2"><a href="#" class="text-dark">Fantasy</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end of flexbox-->
+
+            <div class="justify-content-center text-center pt-5">
+                <a href="#">
+                    <button type="button" class="btn btn-white ps-4 pe-4 view-more rounded-pill">View More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                </a>
+            </div>
+        </div>
+    </section><!--end of browse genres-->
+
+    <!--upcoming releases, special for you-->
+    <div class="container-fluid mx-auto w-100 hero row d-flex flex-row justify-content-center align-items-center pt-5 pb-5 mt-5">
+        <div class="col-md-7">
+            <img class="img-fluid" src="img/open-doodles-reading-side.gif" width="650px" height="650px">
+        </div>
+        <div class="col-md-4 p-5">
+            <h1 class="fw-bold">Upcoming releases, Special for you</h1>
+            <p><small>Specials from our authors around the world!</small></p>
+            <a href="#">
+                <button type="button" class="btn rounded-2 check text-white ps-3 pe-3 mt-4">Check it Out</button>
+            </a>
+        </div>
+    </div>
+    <!--end of upcoming releases-->
+
+    <!--customer reviews-->
+    <div class="container-fluid mx-auto w-100 align-items-center pt-5 mt-5 d-none d-md-inline">
+        <div class="text-center pt-5 mt-5">
+            <h1 class="fw-bold">Customer Reviews</h1>
+            <p>See what our customers say about us</p>
+        </div>
+
+        <!--cards-->
+        <div class="row my-5 align-items-center justify-content-center g-0">
+            <!--first card-->
+            <div class="col-8 col-lg-4 col-xl-3"><!--lg for large screens and xl for extra large screens-->
+                <div class="card border-2 border-dark">
+                    <div class="card-body pt-5">
+                        <h4 class="text-center"><i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-regular fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-regular fa-star" style="color: #DD5E98;"></i>
+                        </h4>
+                        <p class="text-center ps-5 pe-5 pt-3 lh-base">"ReadHaven has introduced me to books I never
+                            would have stumbled upon otherwise."
+                        </p>
+
+                        <div class="row d-flex flex-row mx-auto justify-content-center align-items-center pt-3">
+                            <div class="col-4">
+                                <img class="img-fluid rounded-circle" src="img/customer.png" width="90px" height="90px">
+                            </div>
+                            <div class="col-5 pt-3">
+                                <p class="text-muted"><small><b>Zoe M.</b><br>Chef, Ohio</small></p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+
+            <!--second card-->
+            <div class="col-9 col-lg-4">
+                <div class="card border-dark border-2">
+                     <div class="card-body pt-5">
+                        <h4 class="text-center ps-4 pe-4"><i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-solid fa-star" style="color: #DD5E98;"></i>
+                        </h4>
+                        <p class="text-center ps-5 pe-5 pt-3 lh-base">"I'm Absolutely thrilled with my experience at ReadHaven. The browsing was seamless,
+                            the ordering process was smooth, and my books arrived promptly and in perfect condition.
+                            A true haven for book lovers!"
+                        </p>
+
+                        <div class="row d-flex flex-row mx-auto justify-content-center align-items-center pt-4">
+                            <div class="col-3">
+                                <img class="img-fluid rounded-circle" src="img/customer.png" width="90px" height="90px">
+                            </div>
+                            <div class="col-5 pt-2">
+                                <p class="text-muted"><small><b>Donna C. Blackbox</b><br>Architect, California</small></p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+
+            <!--3rd card-->
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card border-2 border-dark">
+                    <div class="card-body pt-5">
+                        <h4 class="text-center"><i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-solid fa-star" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-solid fa-star-half-stroke" style="color: #DD5E98;"></i>&nbsp;
+                            <i class="fa-regular fa-star" style="color: #DD5E98;"></i>
+                        </h4>
+                        <p class="text-center ps-5 pe-5 pt-3 lh-base">"As an avid reader, I'm impressed by the
+                            extensive collection ReadHaven offers."
+                        </p>
+
+                        <div class="row d-flex flex-row mx-auto justify-content-center align-items-center pt-3">
+                            <div class="col-4">
+                                <img class="img-fluid rounded-circle" src="img/customer.png" width="90px" height="90px">
+                            </div>
+                            <div class="col-5 pt-3">
+                                <p class="text-muted"><small><b>Zac Lee</b><br>Nurse, Iowa</small></p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!--end of cards-->
+    </div>
+    <!--end of customer reviews-->
+
+    <!--browse the collection-->
+    <div class="container-fluid mx-auto w-100 row d-flex flex-row justify-content-center align-items-center pb-5 mt-5">
+        <div class="col-md-5 order-md-2 text-end p-5">
+            <img class="img-fluid" src="img/open-doodles-reading.png" width="350px" height="350px">
+        </div>
+        <div class="col-md-5 p-5 text-center order-md-1 browse">
+            <h3 class="lh-lg fw-semibold">Browse the collection of our best selling and top interesting books</h3>
+            <a href="#">
+                <button type="button" class="btn text-white ps-3 mt-3 pe-3 get">See our Products&nbsp;&nbsp;<i class="fa-solid fa-arrow-right" style="color: #FFFFFF;"></i></button>
+            </a>
+        </div>
+    </div>
+    <!--end of browse the collection-->
+
+    <!--footer1-->
+    <div class="container-fluid mx-auto border-top border-dark border-1 w-100 row d-flex flex-row justify-content-center align-items-center mt-5 p-5">
+        <div class="col-md-3">
+            <p class="fw-semibold text-capitalize">about us</p>
+            <p class="lh-lg text-capitalize">123 main street<br>cityville, texas<br>U.S.A</p>
+        </div>
+
+        <div class="col-md-3">
+            <p class="fw-semibold text-capitalize">help</p>
+            <p class="lh-lg"><a href="#" class="text-dark">Legal Notice</a><br>
+                <a href="#" class="text-dark">Contact Us</a><br>
+                <a href="#" class="text-dark">FAQ</a></p>
+        </div>
+
+        <div class="col-md-3">
+            <p class="fw-semibold text-capitalize">social networks</p>
+            <p class="lh-lg"><i class="fa-brands fa-pinterest" style="color: #000000;"></i>&nbsp;
+                <a href="#" class="text-dark text-capitalize">pinterest</a><br><i class="fa-brands fa-facebook" style="color: #000000;"></i>&nbsp;
+                <a href="#" class="text-dark text-capitalize">facebook</a><br><i class="fa-brands fa-instagram" style="color: #000000;"></i>&nbsp;
+                <a href="#" class="text-dark text-capitalize">instagram
+                
+            </p>
+        </div>
+    </div>
+    <!--end of footer1-->
+
+
+    <!--footer2-->
+    <div class="container-fluid mx-auto w-100 row d-flex bg-dark flex-row justify-content-center align-items-center pt-3 ps-3 pe-3">
+        <div class="col-md-4">
+            <p class="text-muted text-center">Copyright &copy; 2023. All rights reserved.</p>
+        </div>
+
+        <div class="col-md-3">
+            <p class="text-muted text-center">Terms & Conditions</p>
+        </div>
+
+        <div class="col-md-3">
+            <p class="text-muted text-center">Privacy & Policy</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script> 
+</body>
+</html>

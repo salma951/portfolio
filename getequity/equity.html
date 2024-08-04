@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetEquity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="equity.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f82f7d87a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md bg-white pt-4 pb-3 ps-3 pe-5">
+        <div class="container-xxl">
+            <div class="collapse navbar-collapse justify-content-start align-center" id="main-nav">
+                <ul class="navbar-nav pt-2 gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="#"><small>Company</small></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="#"><small>Organization</small></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-6" href="#"><small>Fees</small></a>
+                    </li>
+
+                    <li class="nav-item d-md-none">
+                        <a class="nav-link fs-6 text-center" href="#"><small>Sign In</small></a>
+                    </li>
+
+                    <li class="nav-item d-md-none">
+                        <button type="button" class="btn btn-primary ps-3 pe-3"><small>Get Started</small></button>
+                    </li>
+                </ul>
+            </div>
+
+
+            <a class="navbar-brand text-primary fs-4 pt-2 ps-4" href="#">
+                <img class="img-fluid" src="https://res.cloudinary.com/djalafcj9/image/upload/v1620944472/get%20equity/Logomark_guqa4p.png" width="40px" height="40px">
+                Get<b>Equity</b></a>
+
+
+            <!--toggle button for mobile nav, the bs means bootstrap. the data-bs is for which collapsable section we want to target. aria-controls and aria-expanded are for the benefit of screen readers. aria controls is for what controls the button. aria expanded means that what it currently controls is not expanded and aria label is to toggle the navigation-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars fa-lg" style="color: #000000;"></i>
+            </button>
+
+
+            <!--navbar links-->
+            <div class="collapse navbar-collapse justify-content-end align-center d-none d-md-block" id="main-nav">
+                <ul class="navbar-nav pt-2">
+                    <li class="nav-item pt-2 ps-4 pe-3">
+                        <a class="nav-link fs-6" href="#"><small>Sign In</small></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <button type="button" class="btn btn-primary ps-3 pe-3"><small>Get Started</small></button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end of nav-->
+
+
+    <!--fund-->
+    <div class="container-fluid w-100 mx-auto mt-5">
+        <div class="text-center justify-content-center row">
+            <h1 class="fund display-4">Fund the future, today!</h1>
+            <p class="create lh-base mt-3 text-center col-md-5"><small>
+                Create, access and share awesome, well vetted, investment
+                opportunities in startups building the future, today!
+                </small>
+            </p>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-3 mt-3">
+                    <a href="#">
+                        <button class="btn btn-dark ps-3 pe-3"><i class="fa-brands fa-google-play" style="color: #ffffff;"></i>&nbsp;Google Play</button>
+                    </a>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <a href="#">
+                        <button class="btn btn-dark ps-3 pe-3"><i class="fa-brands fa-apple" style="color: #ffffff;"></i>&nbsp;App Store</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of fund-->
+
+    <!--hero image-->
+    <div class="container-fluid w-100 mx-auto mt-5 pt-3">
+        <img class="img-fluid" src="img/portfolio.png" width="1280px" height="700px">
+    </div>
+    <!--end of hero-image-->
+
+
+    <div class="container-fluid mx-auto w-100 mt-5 p-2 pb-5 row align-items-center justify-content-center gap-5">
+        <div class="col-md-5">
+            <h2 class="text-justify fw-bolder lh-base">100’s of companies from Africa’s
+                top startups, seed to post IPO,
+                unicorns to invest in
+            </h2>
+            <p class="pt-4 text-justify lh-lg">GetEquity allows investors to find, create, and diversify
+                investment portfolios by accessing new investment
+                opportunities, trade-in digital security assets, invest in local
+                SMEs, and improve liquidity.
+            </p>
+        </div>
+
+        <div class="col-md-5">
+            <img class="img-fluid" src="img/wallet-balance.png" width="480px" height="550px">
+        </div>
+    </div>
+
+
+    <section class="sect container-fluid mx-auto w-100 p-5 mt-5 row align-items-center justify-content-center row gap-3">
+        <div class="col-lg-6 order-md-2 border-start pt-4 pb-4">
+            <h3 class="fw-bold lh-base fund"><b>Investment Experience tailored for you : Short or long term</b></h3>
+            <p class="text-justify pt-5 lh-lg create">Fund emerging, high growth, promising innovations at a click of the
+                button, invest alongside mission driven individuals like you, changing
+                the future today.
+            </p>
+            <div class="easy ps-2 pe-2 pb-3 pt-3 mt-5">
+                <ul class="create">
+                    <li><b>Easy Funding</b><br><small>Fund your wallet easily and start investing immediately</small></li>
+                    <li class="pt-4"><b>See Great Opportunities</b><br><small>Access top emerging and growing opportunities today</small></li>
+                    <li class="pt-4"><b>Your Asset, Secured Safely</b><br><small>Your asset is always secured, we use state of the art security to guarantee
+                        your digital asset stays safe, at all times</small></li>
+                    <li class="pt-4"><b>Build Your Networth As You Go</b><br><small>Fund amazing opportunities, meet awesome like minded individuals, create
+                        funding communities, keep your employees happy - there's a whole world to
+                        fund</small></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-5 order-md-1">
+            <img class="img-fluid" src="img/purchase-successful.png" width="550px" height="450px">
+        </div>
+    </section>
+
+
+    <div class="container-fluid w-100 mx-auto mt-5 p-2 pt-5 row justify-content-center align-items-center">
+        <div class="text-center col-md-6 pt-5">
+            <h2 class="fund lh-base">It's frictionless. Unlock your biggest assets with the right opportunity</h2>
+            <p class="create lh-base mt-4 text-center"><small>
+                Experience tradable revenue streams, develop new strategies, encourage thoughtful, effortless investments
+                </small>
+            </p>
+        </div>
+    </div>
+
+    <div class="blue container-lg mx-auto mt-5 rounded-2 p-1 row justify-content-center align-items-center gap-4">
+        <div class="col-lg-5 p-5">
+            <p class="text-uppercase text-primary"><small>portfolio groups, syndicates & communities</small></p>
+            <p class="text-white pt-2 fw-bold fs-3 fund">Create an exclusive (private) community of co-investors with mission-inclined goal</p>
+            <p class="text-white pt-3 text-justify lh-base"><small>Automate your capital calls, seamlessly trade your assets
+                and securities while getting a front row seat to the best
+                deals on the market, all at the touch of a button. GetEquity
+                helps you to effectively manage your investor relations.</small>
+            </p>
+            <a href="#">
+                <button type="button" class="btn btn-primary mt-4 ps-3 pe-3"><small>Create An Account</small></button>
+            </a>
+        </div>
+
+        <div class="col-lg-6 pt-3 ps-3 pe-3 d-none d-md-block">
+            <img class="img-fluid" src="img/investio.png" width="550px" height="450px">
+        </div>
+    </div>
+
+    <div class="green container-lg mx-auto mt-5 rounded-2 p-1 row justify-content-center align-items-center gap-4">
+        <div class="col-lg-5 p-5 order-lg-2">
+            <p class="text-uppercase text-white fund"><small>companies</small></p>
+            <p class="text-white pt-2 fw-bold fs-3 fund">Find investors whose goals align with yours and get building
+            </p>
+            <p class="text-white pt-3 text-justify lh-base"><small>Finding investors who share your vision can be a tough
+                nut to crack so we have created a product with you in
+                mind. GetEquity puts you, the founder in the driver's
+                seat, as you build a community of investors to help you
+                build the future.</small>
+            </p>
+            <a href="#">
+                <button type="button" class="btn blue2 text-white mt-4 ps-4 pe-4 pt-2 pb-2"><small>Create A Company Account</small></button>
+            </a>
+        </div>
+
+        <div class="col-lg-6 pt-3 ps-5 pe-3 d-none d-md-block order-lg-1">
+            <img class="img-fluid" src="img/feystack.png" width="500px" height="450px">
+        </div>
+    </div>
+
+
+    <div class="container-fluid mx-auto row w-100 mt-5 justify-content-center align-items-end">
+        <div class="col-md-7 text-center pt-5">
+            <img class="img-fluid" src="https://cryptofundresearch.com/wp-content/uploads/2018/01/GreenHouse-Capital-crypto-fund.png" width="200px" height="110px">
+            <p class="lh-lg pt-4"><small>"At GreenHouse, we look to invest in companies that are pushing sectors into the future. Asset tokenisation on the
+                blockchain has the potential to unlock massive capital activity, especially in developing markets, and the consequence
+                of that resonates with our mission."</small>
+            </p>
+            <hr class="mt-4">
+            <div class="row justify-content-center align-items-center mt-3">
+                <div class="col-md-3">
+                    <img class="img-fluid rounded-circle" src="https://images.sxsw.com/u9C2lHEtKSj0MPCQgC2lhe6qetI=/48x0:461x413/300x/images.sxsw.com/48/b0c70fad-b2fd-4449-a5fd-c562f5dc03c9/pcid-889707" width="80px" height="80px">
+                </div>
+
+                <div class="col-lg-4">
+                    <p class="text-center"><b><small>Bunmi Akinyemiju<br>Partner</small></b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mx-auto w-100 mt-5 pt-5 pb-5 row justify-content-center gap-3 align-items-center">
+        <div class="col-md-6">
+            <img class="img-fluid" src="https://freerangestock.com/sample/120943/a-person-typing-on-modern-laptop-with-cookies.jpg" width="650px" height="600px">
+        </div>
+
+
+        <div class="col-md-5">
+            <button class="accordion w-100 p-3">
+                <i class="fa-solid fa-circle-arrow-right fa-lg" style="color: #305fdd;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>What is GetEquity?</strong>
+            </button>
+            <div class="panel">
+                <p class="text-muted lh-lg ps-3 pe-3 pt-3 text-justify"><small>
+                    Get Equity is a private marketplace for investors and companies
+                    to trade digital securities and assets privately and securely, the
+                    platform allows companies or enterprises digitalise their assets
+                    via tokens and creates liquidity for them by connecting them to
+                    investors and syndicates who can but and sell those assets
+                </small></p>
+            </div>
+    
+            <button class="accordion w-100 p-3">
+                <i class="fa-solid fa-circle-arrow-right fa-lg" style="color: #305fdd;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Why should I use GetEquity?</strong>
+            </button>
+            <div class="panel">
+                <p class="text-muted lh-lg ps-3 pe-3 pt-3 text-justify"><small>
+                    We have simplified how you support early stage
+                    companies(startups) by investing in tokenised assets which are
+                    just as valid as traditional methods <strong>securely.</strong>
+                </small></p>
+            </div>
+    
+            <button class="accordion w-100 p-3">
+                <i class="fa-solid fa-circle-arrow-right fa-lg" style="color: #305fdd;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>What is tokenised equity?</strong>
+            </button>
+            <div class="panel">
+                <p class="text-muted lh-lg ps-3 pe-3 pt-3 text-justify"><small>
+                    We want you to think of tokenized equity as digital versions of
+                    real security assets. They're like the synthetic version of a real
+                    equity. The tokenization of these securities means they're easily
+                    accessible to everyone and are easy and safer to trade.
+                </small></p>
+            </div>
+    
+            <button class="accordion w-100 p-3">
+                <i class="fa-solid fa-circle-arrow-right fa-lg" style="color: #305fdd;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Can I sell my tokens?</strong>
+            </button>
+            <div class="panel">
+                <p class="text-muted lh-lg ps-3 pe-3 pt-3 text-justify"><small>
+                    Yes, you can through our marketplace...you put in the amount
+                    you wish to sell and wait till you find a buyer (this might take a
+                    while depending on the demand for the companies in question).
+                </small></p>
+            </div>
+    
+            <button class="accordion w-100 p-3">
+                <i class="fa-solid fa-circle-arrow-right fa-lg" style="color: #305fdd;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>How much can I invest?</strong>
+            </button>
+            <div class="panel">
+                <p class="text-muted lh-lg ps-3 pe-3 pt-3 text-justify"><small>
+                    Each company or syndicate sets their own minimum investment
+                    amount per investment round or opportunities that is
+                    showcased. GetEquity's recommended minimum is $100-$1000
+                    per opportunity, please read carefully documents especially
+                    each company's investment memo as startup investments are <strong>highly risky</strong>.
+                </small></p>
+            </div>
+    
+            <button class="accordion w-100 p-3">
+                <i class="fa-solid fa-circle-arrow-right fa-lg" style="color: #305fdd;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Is it free to use GetEquity?</strong>
+            </button>
+            <div class="panel">
+                <p class="text-muted lh-lg ps-3 pe-3 pt-3 text-justify"><small>
+                    Yes and No. What do we mean? Get Equity offers both a free
+                    and paid pricing system, we charge a fee for startups looking to
+                    raise funding on our platform , we also charge to access some
+                    restricted features and we charge a minimal amount in trading
+                    fees but apart from that we are free to use and we hope to remain so.
+                </small></p>
+            </div>
+        </div>
+        <!--end of accordion-->
+    </div>
+
+    <section class="sect container-fluid mx-auto w-100 row mt-5 justify-content-around align-items-center pt-5 pb-5 ps-3 gap-3">
+        <div class="col-lg-4 pt-4 ps-4 pe-4 border-start">
+            <h1 class="fund fw-bolder">Ready to get started?</h1>
+            <p class="mt-4 create text-justify"><small>Start building your awesome community of investors
+                by signing up and downloading the mobile app</small>
+            </p>
+        </div>
+
+        <div class="col-lg-3 pt-5 pb-5 ps-4 pe-4 border-start">
+            <span class="ps-1">
+                <i class="fa-solid fa-landmark fa-xl" style="color: #305fdd;"></i>
+            </span>
+            <p class="fund pt-3">Start as a company</p>
+            <p class="text-muted create text-justify"><small>Raising funds should be as simple as
+                a click of a button, and we think so
+                too</small>
+            </p>
+            <a href="#" class="text-primary pb-2 create text-decoration-none border-bottom"><small>Learn more</small></a>
+        </div>
+
+        <div class="col-lg-3 pt-5 pb-5 ps-4 pe-4 border-start">
+            <span class="ps-1">
+                <i class="fa-solid fa-users fa-xl" style="color: #305fdd;"></i>
+            </span>
+            <p class="fund pt-3">Start as a syndicate</p>
+            <p class="text-muted create text-justify"><small>We provide the easiest way to set up
+                strategic, co-shared investment deals</small>
+            </p>
+            <a href="#" class="text-primary pb-2 create text-decoration-none border-bottom"><small>Learn more</small></a>
+        </div>
+    </section>
+
+
+    <div class="container-fluid w-100 mx-auto mt-5 pt-5">
+        <div class="container-md w-75 mt-5 mx-auto blue pb-2 pt-1 row rounded-2 justify-content-center align-items-center gap-5">
+            <div class="col-md-5 pt-4 pe-4">
+                <h4 class="text-white fw-bold fund"><b>Join our mailing list</b></h4>
+                <p class="text-white text-justify create lh-base pt-3 fw-semibold"><small>
+                    Receive incredible news on the best companies
+                    to invest in
+                </small>
+                </p>
+            </div>
+    
+            <div class="col-md-5 pt-4 pb-3">
+                <div class="row gap-3">
+                    <input type="text" class="col-md form-control ps-4 pt-2 pb-2 rounded-1" placeholder="First Name" aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="email" class="col-md form-control ps-4 pt-2 pb-2 rounded-1" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+    
+                <div class="row gap-3 mt-3">
+                    <select class="col-md ps-4 pe-1 pt-2 pb-2 rounded-1 text-secondary" style="font-size: 13px;">
+                        <option value="" disabled selected hidden>Category</option>
+                        <option value="indi">Individual Investor</option>
+                        <option value="comp">Company</option>
+                        <option value="syn">Syndicate/VC</option>
+                    </select>
+                    <button class="col-md btn btn-secondary text-white"><small>Join List</small></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mx-auto pt-5 mt-5 text-center">
+        <h3 class="text-primary fw-light mt-5">
+            <img class="img-fluid" src="https://res.cloudinary.com/djalafcj9/image/upload/v1620944472/get%20equity/Logomark_guqa4p.png" width="40px" height="40px">
+            Get<b>Equity</b>
+        </h3>
+    </div>
+
+    <div class="container-fluid mx-auto w-100 row create justify-content-center align-items-center gap-5 mt-3 d-none d-md-flex">
+        <div class="col-md-1 text-center">
+            <a href="#" class="text-dark text-decoration-none"><small>Company</small></a>
+        </div>
+
+        <div class="col-md-1 text-center">
+            <a href="#" class="text-dark text-decoration-none"><small>Organization</small></a>
+        </div>
+
+        <div class="col-md-2 text-center">
+            <a href="#" class="text-dark text-decoration-none"><small>About Us</small></a>
+        </div>
+
+        <div class="col-md-1 text-center">
+            <a href="#" class="text-dark text-decoration-none"><small>Fees</small></a>
+        </div>
+
+        <div class="col-md-1 text-center">
+            <a href="#" class="text-dark text-decoration-none"><small>FAQs</small></a>
+        </div>
+    </div>
+    
+    <div class="container-fluid mx-auto w-100 mt-3 row justify-content-center align-items-center">
+        <div class="col-lg-3 text-center mt-3">
+            <a href="#" class="text-muted text-decoration-none">
+                <i class="fa-regular fa-envelope" style="color: #000000;"></i>&nbsp;&nbsp;<small>support@getequity.io</small>
+            </a>
+        </div>
+
+        <div class="col-lg-2 text-center mt-3">
+            <a href="#" class="text-muted text-decoration-none">
+                <i class="fa-solid fa-phone" style="color: #000000;"></i>&nbsp;&nbsp;<small>012298432</small>
+            </a>
+        </div>
+
+        <div class="col-lg-3 text-center mt-3">
+            <div class="row justify-content-center gap-3">
+                <a href="#" class="col-1">
+                    <i class="fa-brands fa-linkedin fa-lg" style="color: #000;"></i>
+                </a>
+                <a href="#" class="col-1">
+                    <i class="fa-brands fa-square-facebook fa-lg" style="color: #000;"></i>
+                </a>
+                <a href="#" class="col-1">
+                    <i class="fa-brands fa-twitter fa-lg" style="color: #000;"></i>
+                </a>
+                <a href="#" class="col-1">
+                    <i class="fa-brands fa-square-instagram fa-lg" style="color: #000;"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-2 text-center mt-3">
+            <a href="#" class="text-muted text-decoration-none"><small>Terms of Service</small></a>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mx-auto p-5 text-center">
+        <p class="mt-5"><small>&copy;&nbsp;2021 Get Equity. All Rights Reserved</small></p>
+    </div>
+
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+         var i;
+
+         for (i = 0; i < acc.length; i++) {
+         acc[i].addEventListener("click", function() {
+             this.classList.toggle("active");
+             var panel = this.nextElementSibling;
+             if (panel.style.maxHeight) {
+             panel.style.maxHeight = null;
+             } else {
+             panel.style.maxHeight = panel.scrollHeight + "px";
+             }
+         });
+         }
+
+     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>   
+</body>
+</html>
