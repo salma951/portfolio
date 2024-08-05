@@ -1,9 +1,0 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
-body {   font-family: "Poppins", sans-serif; }
-
-.get {  background-color: #fece2f;  }       .get:hover {  background-color: #deaa00;  }
-
-.get-text {  color: #deaa00;}       .get-text:hover {  color: #deaa00;}
-
-li:hover {  font-size: larger }         .text-justify {  text-align: justify;}
