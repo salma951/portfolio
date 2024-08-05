@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*general*/
+.small-text {
+    font-size: 14px;
+}
+
+.rubi {  font-family: 'Rubik', sans-serif;  font-weight: 500;  }
+
+.jost {  font-family: 'Jost', sans-serif;}
+
+.text-justify {   text-align: justify;  }
+
+
+
+/*navbar*/
+.navbar {   font-family: 'Rubik', sans-serif; font-weight: lighter;  font-size: 16px;  }
+
+.dropdown:hover .dropdown-menu {  display: block;  }
+
+.dropdown-menu a:hover {
+    background-color: white;
+}
+
+
+
+
+/*bottom arrow*/
+.arrow-up {  width: 50px;  height: 45px;  border-top-left-radius: 5px;  border-bottom-left-radius: 5px;  
+    border-top-right-radius: 0px;   border-bottom-right-radius: 0px;  background-color: #298754;  color: white;  
+    transition: background-color 0.5s;
+}
+
+.arrow-up:hover { background-color: black;}
+
+.arrow {
+    position: fixed;  bottom: 0;  right: 0;  padding-bottom: 30px; 
+}
+
+.hide {
+    opacity: 0;  transition: opacity 0.7s linear;
+   
+}
+.show {
+    opacity: 1;  transition: opacity 0.7s linear; 
+}
+
+
+
+
+/*members*/
+.share {
+    border-bottom-left-radius: 30px;  border-bottom-right-radius: 30px;   border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.per {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%); 
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.cont {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);   background-image: url(img/photo.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); height: 300px;  background-repeat: no-repeat;  background-size: cover;
+}
+
+.first {
+    transition: all 1s; 
+}
+
+.first:hover {
+    margin-top: -20px;
+}
+
+.first:hover .list-link {
+    opacity: 1;  transition: all 1s;
+}
+
+.list-link {
+    list-style-type: none;  width: 40px;  transition: all 1s;  border-radius: 20px;    opacity: 0;
+}
+
+
+
+/*increasing numbers*/
+.dash-border {
+    border-right: 2px dashed #cacfd4;
+}
+
+.one {
+    background-image: url(img/shirt.png);  width: 70px;  height: 70px;   background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.satisfied:hover .one {
+    background-image: url(img/shirt2.png);  width: 70px;  height: 70px;   background-size: contain;
+    background-repeat: no-repeat;  animation: bounce 0.5s linear infinite;
+}
+
+.four {
+    background-image: url(img/users.png);  width: 70px;  height: 70px;   background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.affiliations:hover .four {
+    background-image: url(img/users2.png);  width: 70px;  height: 70px;   background-size: contain;
+    background-repeat: no-repeat;  animation: bounce 0.5s linear infinite;
+}
+
+.three {
+    background-image: url(img/acti.png);  width: 70px;  height: 80px;   background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.activate:hover .three {
+    background-image: url(img/acti2.png);  width: 70px;  height: 70px;   background-size: contain;
+    background-repeat: no-repeat;  animation: bounce 0.5s linear infinite;
+}
+
+.two {
+    background-image: url(img/trophy.png);  width: 70px;  height: 70px;   background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.awards:hover .two {
+    background-image: url(img/trophy2.png);  width: 70px;  height: 70px;   background-size: contain;
+    background-repeat: no-repeat;  animation: bounce 0.5s linear infinite;
+}
+
+
+
+
+/*map and logos*/
+.logos:hover {
+    scale: 1.05;  transition: ease;  transition-duration: 0.7s;
+}
+
+.one1, .two2 {
+    border-right: 1px solid rgb(233, 233, 233);  border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.three3 {
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.four4, .five5 {
+    border-right: 1px solid rgb(233, 233, 233);
+}
+
+.cont1 {  position: relative;  }
+
+.box {  position: relative;   }
+
+.stack-top1 {   position: absolute; z-index: 1;  top: 70px;  }
+
+
+
+
+
+@keyframes bounce {
+    from {
+        transform: translateY(-7px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+
+
+/*footer*/
+.foot-list .dash {
+    transition: all 0.5s;  opacity: 0;
+}
+.foot-list:hover .dash {
+    opacity: 1;  margin-left: 10px;
+}
+.input-group ::placeholder {
+    color: white;
+}
+.input-group input {
+    background-color: #1e294a;
+}
+
+.foot-list .act .dash {
+    opacity: 1;
+}
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    .one1, .two2, .three3, .four4, .five5 {
+        border-bottom: 1px solid rgb(233, 233, 233);  border-right: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    sup {
+        display: none;
+    }
+}

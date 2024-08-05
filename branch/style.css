@@ -1,0 +1,1158 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+
+
+
+.first-nav {
+    height: 50px;  border-bottom: 1px solid rgb(223, 223, 223);
+    padding: 14px 60px 0 20px;
+}
+.for-teams {
+    text-align: center;  align-self: center;  font-family: Helvetica;  font-size: 14px;
+    font-weight: bold;  margin-left: 20px;   height: 30px; 
+}
+.for-teams:hover {
+    border-bottom: 2px solid #477257;
+}
+.for-teams a {
+    text-decoration: none;  color: #314438;
+}
+.none p {
+    color: transparent;
+}
+.can {
+    margin-left: 25px;
+}
+
+
+
+
+
+/*Dropdown css*/
+.dropbtn {
+    background-color: white;   color: #314438;  font-size: 14px;  
+    border: none;  font-family: Helvetica;  font-weight: 600;
+  }
+  
+.dropdown {
+    position: relative;  display: inline-block;
+}
+
+.dropdown-content {
+    display: none;  position: absolute;   background-color: #fafafa;   min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   z-index: 1;
+}
+
+.dropdown-content a {
+    color: #314438;  padding: 5px 12px;   text-decoration: none;   display: block;
+    font-size: 14px;  font-weight: lighter;
+}
+
+.dropdown-content a:hover {
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+.dropdown-content2 {
+    display: none;  position: absolute;   background-color: #fafafa;   min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   z-index: 1;
+}
+
+.dropdown-content2 a {
+    color: #314438;  padding: 5px 12px;   text-decoration: none;   display: block;
+    font-size: 14px;  font-weight: lighter;
+}
+
+.dropdown-content2 a:hover {
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content2 {
+    display: block;
+}
+
+
+
+/* dropdown for hamburger */
+.ham {
+    padding-top: 10px;
+}
+.dropbtn3 {
+    background-color: white;   color: #314438;  font-size: 14px;  
+    border: none;  font-family: Helvetica;  font-weight: 600;
+  }
+  
+.dropdown3 {
+    position: relative;  display: inline-block;
+}
+
+.dropdown-content3 {
+    display: none;  position: absolute;   background-color: #fafafa;   min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   z-index: 1;
+    justify-content: center; text-align: center;
+}
+
+.dropdown-content3 a {
+    color: #314438;  padding: 10px 12px;   text-decoration: none;   display: block;
+    font-size: 14px;  font-weight: lighter;
+}
+
+.dropdown-content3 a:hover {
+    font-weight: bold;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+.ham {
+    display: none;
+}
+
+
+
+.second-nav {
+    height: 80px;  border-bottom: 1px solid rgb(223, 223, 223);
+    padding: 14px 60px 0 35px;  position: sticky;   background-color: white;
+}
+.branch h1 {
+    font-family: 'Signika', sans-serif;  color: #314438;  font-weight: 700;
+}
+.shop, .chairs, .desk, .access, .work, .bundles, .sale {
+    text-align: center;  align-self: center;  font-family: Helvetica;  font-size: 13px;
+    margin-left: 0px;   height: 30px; 
+}
+.shop a:hover {
+    border-bottom: 2px solid #477257;
+    padding-bottom: 10px;
+}
+.chairs a:hover {
+    border-bottom: 2px solid #477257;
+    padding-bottom: 10px;
+}
+.desk a:hover {
+    border-bottom: 2px solid #477257;
+    padding-bottom: 10px;
+}
+.access a:hover {
+    border-bottom: 2px solid #477257;
+    padding-bottom: 10px;
+}
+.work a:hover {
+    border-bottom: 2px solid #477257;
+    padding-bottom: 10px;
+}
+.bundles a:hover {
+    border-bottom: 2px solid #477257;
+    padding-bottom: 10px;
+}
+.sale a:hover {
+    border-bottom: 2px solid #477257;
+    padding-bottom: 10px;
+}
+.second-nav a {
+    text-decoration: none;  color: #314438;
+}
+.sale a {
+    color: rgba(196, 71, 22, 0.836);
+}
+.design, .bag {
+    text-align: center;  align-self: center; margin-top: -9px;
+}
+.des {
+    background-color: #314438;  color: white;  font-size: 12px;  font-family: Helvetica;
+    width: 140px;  height: 28px;   border: none;   transition: 0.5s;
+}
+.des:hover {
+    background-color: white;  border: 2px solid #314438;  color: #314438;
+}
+.bag {
+    color: #314438;
+}
+
+
+
+
+
+.hero {
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/Desktop_-_normal.jpg?v=1667935614);
+    height: 540px;  background-size: cover;  padding-top: 55px;
+}
+.furn {
+    padding-top: 50px;  padding-left: 90px;  width: 700px; 
+    align-self: center;  text-align: left;
+}
+.furn h1 {
+    color: #314438;  font-family: 'Playfair Display', serif;  font-size: 45px;  font-weight: 500;
+    text-align: left;  justify-content: center;  align-self: left;
+}
+.furn h5 {
+    color: #314438;  font-family: sans-serif;  padding-top: 10px;  font-size: 19px;
+    text-align: left;  justify-content: center;  align-self: left;  font-weight: lighter;
+    letter-spacing: 1px;  line-height: 30px;
+}
+.way {
+    text-decoration: underline;  text-decoration-color: #8cc1d2;
+}
+.build {
+    width: 450px;
+}
+.now {
+    background-color: #314438;  color: white;  font-size: 12px;  font-family: Helvetica;
+    width: 270px;  height: 50px;   border: none;   transition: 0.5s;
+}
+.now:hover {
+    background-color: transparent;  border: 2px solid #314438;  color: #314438;
+}
+.need {
+    color: #314438;  font-weight: lighter;
+}
+.need a {
+    text-decoration: none;  color: #314438;  font-weight: bold;
+}
+.need a:hover {
+    color: #8cc1d2;
+}
+
+
+
+.trust {
+    width: 100%;  text-align: center;
+}
+.trust p {
+    color: #314438;  font-size: 12px;  font-weight: bold;  text-align: center;
+    word-spacing: 2px;
+}
+
+
+
+
+.brands {
+    padding-bottom: 20px;  border-bottom: 1px solid rgb(223, 223, 223);   display: flex;
+    text-align: center;  justify-content: center;  width: 100%;
+}
+.goo, .shopify, .baron, .more {
+    padding-left: 50px;
+}
+.tumb p {
+    font-family: 'Bookman Old Style';  color: #314438;  font-size: 24px;  font-weight: 900;
+}
+.goo p {
+    font-family: 'Product Sans'; color: #314438;  font-size: 24px;  font-weight: 700;
+}
+.shopify p {
+    font-family: 'Helvetica Neue'; color: #314438;  font-size: 24px;  font-weight: 700;
+    font-style: italic;
+}
+.baron p {
+    font-family: 'Helvetica Neue'; color: #314438;  font-size: 24px;  font-weight: 500;
+}
+.more p {
+    font-family: 'Product Sans';  font-weight: 400;  font-size: 22px;  color: rgb(194, 194, 194);
+}
+.where {
+    width: 100%;  text-align: center;  padding-top: 70px;
+}
+.where h1 {
+    font-family: 'Playfair Display';  color: #314438;  font-size: 38px; 
+}
+
+
+
+
+.hometeam {
+    padding-top: 60px;  padding-bottom: 60px;  display: flex;  gap: 20px;
+    justify-content: center;  width: 100%;
+}
+.home {
+    width: 450px;  height: 450px; background-color: red;  background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/home_office_homepage.jpg?v=1614780564);
+    padding-bottom: 15px;  transition: transform .5s ease;
+}
+.home:hover {
+    transform: scale(1.05);
+}
+.team {
+    width: 450px;  height: 450px;  background-color: purple;  background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/2-min-overlay.jpg?v=1614780564);
+    transition: transform .5s ease;  padding-bottom: 15px; 
+}
+.team:hover {
+    transform: scale(1.05);
+}
+.hometeam a {
+    text-decoration: none;  color: white;
+}
+.arrow {
+    width: 50px;  height: 50px;  border-radius: 25px;  background-color: white;  color: #314438;
+    text-align: center;  padding: 13px;  transition: 0.5s;
+}
+.home:hover .arrow {
+    background-color: #8cc1d2;  color: white
+}
+.team:hover .arrow {
+    background-color: #8cc1d2;  color: white
+}
+.office h4 {
+    font-family: 'Crimson Pro', serif;
+}
+.office p {
+    font-family: 'Assistant', sans-serif;
+}
+
+
+
+
+.explore {
+    width: 100%;  text-align: center;  padding-top: 40px;
+}
+.explore p {
+    color: #314438;  font-size: 15px;  font-weight: bold;  text-align: center;
+    word-spacing: 2px;
+}
+.plore {
+    width: 100%;  text-align: center;  justify-content: center;  display: flex;  
+    padding-top: 50px;  padding-bottom: 20px;   gap: 20px;
+}
+.plore1 {
+    width: 300px;  height: 550px;  background-size: cover;  transition: transform .5s ease;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/1-crop.png?v=1614780565);
+}
+.plore2 {
+    width: 300px;  height: 550px;  background-color: red;  background-size: cover;  transition: transform .5s ease;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/3.png?v=1614780565);
+}
+.plore3 {
+    width: 300px;  height: 550px;  background-color: red;  background-size: cover;   transition: transform .5s ease;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/2-min_1.png?v=1614780568);
+}
+.plore1:hover {
+    transform: scale(1.05);
+}
+.plore2:hover {
+    transform: scale(1.05);
+}
+.plore3:hover {
+    transform: scale(1.05);
+}
+.see {
+    width: 100%;  text-align: center;  justify-content: center;  display: flex;  
+    padding-top: 10px;  padding-bottom: 50px;   gap: 20px;
+}
+.see h2 {
+    font-family: 'Mali', cursive;  color: #314438;  font-weight: 500;
+    font-size: 30px;
+}
+.see a {
+    text-decoration: none;  color: #314438;   
+}
+.see a:hover {
+    color: #8cc1d2;
+}
+.see1, .see2, .see3 {
+    width: 300px;  text-align: center;
+}
+
+
+
+.coll {
+    width: 100%;  text-align: center;  padding-top: 0px;  padding-bottom: 80px;
+}
+.collection {
+    background-color: #314438;  color: white;  font-size: 12px;  font-family: Helvetica;
+    width: 270px;  height: 50px;   border: none;   transition: 0.5s;
+}
+.collection:hover {
+    background-color: transparent;  border: 2px solid #314438;  color: #314438;
+}
+
+
+
+
+.we {
+    width: 100%;  text-align: center; justify-content: center;  height: 500px;
+    background-color: #f3f0ed;  padding-top: 70px;
+}
+.we h1 {
+    font-family: 'Playfair Display';   color: #314438;
+}
+.that {
+    color: #314438;  font-weight: lighter;  font-family: 'Mali';  padding-top: 5px;
+}
+.do {
+    width: auto;  height: auto;  display: flex;   gap: 50px;
+}
+.team2 {
+    padding-left: 150px;
+}
+.er {
+    display: flex;  text-align: center;  gap: 100px;  padding-top: 20px;
+}
+.text { gap: 90px;  display: flex;  text-align: center;  }
+.text1 { width: 90px;  font-family: 'Mali';  font-weight: 700; color: #314438; }
+.text2 { width: 80px; font-family: 'Mali'; font-weight: 700; color: #314438; }
+.text3 { width: 100px; font-family: 'Mali'; font-weight: 700; color: #314438; }
+
+
+.ergo {
+    width: 80px; height: 80px;  background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/Ergonomics_simple_62b60253-b885-49c3-b957-f3f08025b7de_200x.png?v=1671710477);
+    background-size: cover;
+}
+.fewer {
+    width: 80px; height: 80px;  background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/Middlemen_200x.png?v=1671639759);
+    background-size: cover;
+}
+.free {
+    width: 80px; height: 80px;  background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/Shipping_or_supply_chain_e7f66d38-fa96-426b-a17e-7284e6e64199_200x.png?v=1671710229);
+    background-size: cover;
+}
+.team3 {
+    width: 550px;  height: 200px;  background-color: #fdfcfc;  
+}
+.team4 {
+    background-color: #8cc1d2;  color: white;  width: 180px;  height: 30px;
+    font-size: 14px; font-weight: 500;  font-family: 'Mali';  padding-top: 4px;
+    align-self: center;  text-align: center;  margin-left: 180px;  margin-top: -12px;
+    transform: rotate(-5deg);
+}
+.team5 {
+    display: flex;  gap: 60px;  justify-content: center;  padding-top: 10px;
+}
+.team6 {
+    display: flex;
+}
+.white {
+    background-size: cover;  width: 80px;  height: 80px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/White_Glove_or_Easy_Assembly_a7867a62-0999-4cfb-841a-9d48205cf0ba_200x.png?v=1671710229);
+}
+.quick {
+    background-size: cover;  width: 80px;  height: 80px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/On_your_schedule_e50f21be-a8c0-494b-81ad-fbf2157d3729_200x.png?v=1671710720);
+}
+.trade {
+    background-size: cover;  width: 80px;  height: 80px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/Flex_200x.png?v=1671639765);
+}
+.team6 { justify-content: center; gap: 40px;}
+.glove { width: 120px;  font-family: 'Mali';  font-weight: 700; color: #314438;}
+.turn { width: 120px; font-family: 'Mali'; font-weight: 700; color: #314438;  text-align: center;}
+.in { width: 100px; font-family: 'Mali'; font-weight: 700; color: #314438;}
+
+
+
+
+
+
+.supp {
+    display: flex;  width: 100%;  height: 550px;  
+    padding-bottom: 50px;  padding-left: 50px;  gap: 30px;  overflow: hidden;
+    position: relative;
+}
+video {
+    object-fit: cover;   position: absolute;   top: 0;   left: 0;
+    height: 100%;   width: 100%;
+}
+.arrow2 {
+    width: 90px;  height: 90px;  border-radius: 50px;  background-color: white;  transition: 0.5s;
+    color: #314438;  padding-top: 20px;  padding-bottom: 30px;  padding-left: 30px;  padding-right: 25px;
+}
+.supp:hover .arrow2 {
+    background-color: #8cc1d2;   color: white;
+}
+.header{
+    position: relative;  display: flex;   color: white;  gap: 40px;
+}
+.support p {
+    color: white;  font-size: 13px;  font-family: 'Assistant';  font-weight: 600;
+}
+.support h1 {
+    color: white;  font-family: 'Playfair Display'; font-weight: 700;
+}
+
+
+
+
+
+.direct {
+    padding-top: 50px;  display: flex;  gap: 100px;  width: 100%;
+    justify-content: center;  height: 700px; 
+}
+.share {
+    width: 500px;  height: 600px;   padding-top: 170px; 
+}
+.dealer {
+    width: 500px;  height: 600px;  display: flex; 
+    padding-top: 120px; gap: 50px;
+}
+.share h1 {
+    font-family: 'Playfair Display';  color: #314438;
+}
+.share p {
+    font-family: 'Mali';  color: #314438;  padding-top: 15px;
+}
+.story {
+    background-color: #314438;  color: white;  font-size: 12px;  font-family: Helvetica;
+    width: 140px;  height: 45px;   border: none;   transition: 0.5s;
+}
+.story:hover {
+    background-color: transparent;  border: 2px solid #314438;  color: #314438;
+}
+.deal1 p {
+    font-family: 'Assistant';   color: #314438;
+    font-size: 18px;
+}
+.grey {
+    background-color: #aeb6b1;  width: 100px; height: 400px;
+}
+.grey2 p {
+    font-family: 'Assistant';   color: #314438;
+    font-size: 18px;  font-weight: 900;  text-align: center;
+}
+.da {
+    width: 100px;  height: 200px;  padding-left: 20px;  padding-top: 130px;
+    border-left: 2px dashed #314438;
+    border-right: 2px dashed #314438;
+    border-top: 2px dashed #314438;
+}
+.da a {
+    text-decoration: none;  color: #314438;  font-weight: lighter;  text-align: center;
+    font-family: 'Assistant';  font-size: 18px;
+}
+.da2 {
+    width: 100px;  height: 200px;   background-color: #314438;
+}
+.dash2 h2 {
+    font-family: 'Signika';  color: #314438;   font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.best {
+    width: 100%; height: 780px;  background-color: #f3f0ed;  padding-top:  50px;
+}
+.sellers {
+    width: 100%;  padding-left: 60px;
+}
+.sellers h2 {
+    font-family: 'Playfair Display';  color: #314438;
+}
+.sellers2 {
+    display: flex;  justify-content: center;   gap:  25px;
+    padding-top: 50px;
+}
+.sellers2 a {
+    text-decoration: none;  color: #314438;
+}
+.one {
+    width: 250px;  height: 410px;   background-color: white;
+}
+.one:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.image {
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/products/79deb3e251d68f786b213f62766a4815_1024x_crop_center.jpg?v=1610741440);
+    width: 250px;  height: 270px;  background-size: cover;
+}
+.two {
+    width: 250px;  height: 410px;   background-color: white;
+}
+.two:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.image2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/products/102078ba05f00ead3aec6f240ab7ebaf_1024x_crop_center.jpg?v=1610741734);
+    width: 250px;  height: 270px;  background-size: cover;
+}
+.three {
+    width: 250px;  height: 410px;  background-color: white;
+}
+.three:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.image3 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/products/2e015e1b8f5d30e51f91cf6230d1d72f_1024x_crop_center.jpg?v=1610741264);
+    width: 250px;  height: 270px;  background-size: cover;
+}
+.four {
+    width: 250px;  height: 410px;  background-color: white;
+}
+.four:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.image4 {
+    width: 250px;  height: 270px;  background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/products/ILOA-black-min_1024x_crop_center.jpg?v=1672945962);
+}
+
+
+
+
+.task {
+    width: 250px;  height: 120px;  background-color: white;  color: #314438;
+    padding-top: 25px;  padding-left: 30px;
+}
+.task h6 {
+    font-weight: 600;
+}
+.task p {
+    font-size: 14px;  font-family: 'Mali';  line-height: 23px;  font-weight: lighter;
+}
+.pro {
+    width: 100%;  text-align: center;  padding-top: 50px;  padding-bottom: 80px;
+}
+.prod {
+    background-color: #314438;  color: white;  font-size: 12px;  font-family: Helvetica;
+    width: 200px;  height: 50px;   border: none;   transition: 0.5s;
+}
+.prod:hover {
+    background-color: transparent;  border: 2px solid #314438;  color: #314438;
+}
+
+
+
+
+
+
+
+.loved {
+    display: flex;  justify-content: center;  width: 100%;  height: 800px;
+    gap: 40px;   padding-top: 80px;  
+}
+.loved2 {
+    width: 550px;  height: 600px;
+    padding-top: 60px; 
+}
+.loved2 h2 {
+    width: 350px;  color: #314438;   
+    font-family: 'Playfair Display';   line-height: 45px;
+}
+.loved3 {
+    width: 500px;  height: 600px; 
+}
+.jeff {
+    display: flex;  gap: 20px;
+}
+.jeff1, .thomas {
+    width: 230px; height: 280px;   border: 1px solid #314438;
+    background-color: white;  text-align: center; 
+}
+.person {
+    text-align: center;  padding-bottom: 10px;   padding-top: 20px;
+}
+.person img {
+    width: 50px;  height: 50px;  border-radius: 50%;  border: 1px solid  #314438;
+}
+.jeff1 {
+    font-family: 'Assistant';   color: #314438;  padding: 10px;
+}
+.thomas {
+    font-family: 'Assistant';   color: #314438;  padding: 10px;
+}
+.person2 {
+    width: 50px;  height: 50px; border-radius: 50%;   background-size: cover;
+    background-image: url(https://www.thispersondoesnotexist.com/image);
+}
+
+
+
+
+
+
+
+
+
+
+.pics {
+    width: 100%;  gap: 10px;  padding-top: 20px;  display: flex;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5 {
+    width: 245px;  height: 245px;
+}
+.pic1 {
+    background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/1.jpg?v=1665173474);
+}
+.pic2 {
+    background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/2_8c226a3a-ee97-4571-8e43-7f3a251faafe.jpg?v=1665173493);
+}
+.pic3 {
+    background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/3_caa42da4-4d1d-4bfb-a952-59d68085e5e9.jpg?v=1665173510);
+}
+.pic4 {
+    background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/4.jpg?v=1665173528);
+}
+.pic5 {
+    background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0287/3429/2028/files/5_0803f4f6-622d-46ca-a2f2-51e71d89c8df.jpg?v=1665173553);
+}
+
+
+
+
+
+
+
+
+
+.carousel {
+    width: 500px;   height: 200px;
+  }
+  .carousel-item {
+    margin-top: 40px;
+  }
+  .carousel-item p {
+    font-family: 'Mali';  line-height: 35px;
+  }
+  
+  
+  .logos {
+    width: 500px;   height: 70px;  margin-top: 40px; 
+    display: flex;  
+    gap: 35px;
+  }
+  .tech {
+    display: flex;  
+  }
+  .tech h5 {
+    font-family: 'Bookman Old Style';  font-weight: 900;  padding-left: 10px; 
+    padding-top: 15px;
+  }
+  .forbes {
+    width: 100px;
+  }
+  .forbes:hover {
+    border-bottom:  4px  solid  #8cc1d2;
+  }
+  .tech:hover {
+    border-bottom:  4px  solid  #8cc1d2;
+  }
+  .apart {
+    padding-top: 10px; 
+    display: flex;  gap: 12px;   width: 120px;
+  }
+  .apart:hover {
+    border-bottom:  4px  solid  #8cc1d2;
+  }
+  .rapy p{
+    font-size: 13px;  width: 40px;   color: #314438;
+  }
+  .forbes h2 {
+    font-family: 'Playfair Display';  color: #314438;
+}
+  
+
+
+
+
+
+
+
+
+
+/*footer*/
+.foot {
+    width: 100%;  height: 80px;  background-color: transparent;  text-align: right;
+    padding-bottom: 20px;
+}
+.footer {
+    background-color: #314438;  color: white;  padding: 20px;   transition: 0.3s;
+    width: 60px;  height:  60px;  border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;  border-top-left-radius: 30px;
+    border-top-right-radius: 4px;  position: absolute; right: 2%;  bottom: 15%;
+}
+
+.footer:hover {
+    color: #8cc1d2;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    .first-nav, .second-nav {
+        display: none;
+    }
+    .ham {
+        display: block;
+    }
+    .branch h1 {
+        font-size: 40px;
+    }
+    .shop, .chairs, .desk, .access, .work, .bundles, .sale, .none, .design, .bag {
+        display: none;
+    }
+    .furn {
+        padding-left: 0px;  width: 300px;  text-align: center;
+    }
+    .build {
+        width: 300px;;
+    }
+    .brands {
+        display: block;  width: 320px;  text-align: center;
+    }
+    .goo, .shopify, .baron, .more {
+        padding-left: 0px;
+    }
+    .hometeam {
+        display: block;  padding-left: 25px; 
+    }
+    .home, .team {
+        width: 270px;  height: 270px;
+    }
+    .team {
+        margin-top: 20px;
+    }
+    .arrow {
+        display: none;
+    }
+    .explore, .plore, .see {
+        display: none;
+    }
+    .we {
+        display: none;
+    }
+    .support, .arrow2 {
+        display: none;
+    }
+    .direct {
+        display: block;  height: 150px;
+    }
+    .share {
+        width: 320px;  text-align: center;
+        padding-top: 0px;  height: 100px;
+    }
+    .dealer {
+        display: none;
+    }
+    .share h1, p {
+        display: none;
+    }
+    .best {
+        height: 1700px;
+    }
+    .sellers {
+        padding-left: 0px;  text-align: center;
+    }
+    .sellers2 {
+        display: block;  padding-left: 35px;
+    }
+    .two, .three, .four {
+        margin-top: 150px;
+    }
+    .one, .two, .three, .four {
+        height: 200px;
+    }
+    .task {
+        height: 60px;  text-align: center;  padding-left: 0px; padding-top: 20px;
+    }
+    .task h6 {
+        font-size: 20px;  font-family: 'Signika';
+    }
+    .pro {
+        margin-top: 100px;
+    }
+    .loved {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .first-nav, .second-nav {
+        display: none;
+    }
+    .ham {
+        display: block;
+    }
+    .branch h1 {
+        font-size: 40px;
+    }
+    .shop, .chairs, .desk, .access, .work, .bundles, .sale, .none, .design, .bag {
+        display: none;
+    }
+    .furn {
+        padding-left: 0px;  width: 355px;  text-align: center;
+    }
+    .build {
+        width: 355px;;
+    }
+    .brands {
+        display: block;  width: 375px;  text-align: center;
+    }
+    .goo, .shopify, .baron, .more {
+        padding-left: 0px;
+    }
+    .hometeam {
+        display: block;  padding-left: 25px; 
+    }
+    .home, .team {
+        width: 325px;  height: 325px;
+    }
+    .team {
+        margin-top: 20px;
+    }
+    .arrow {
+        display: none;
+    }
+    .explore, .plore, .see {
+        display: none;
+    }
+    .we {
+        display: none;
+    }
+    .support, .arrow2 {
+        display: none;
+    }
+    .direct {
+        display: block;  height: 150px;
+    }
+    .share {
+        width: 375px;  text-align: center;
+        padding-top: 0px;  height: 100px;
+    }
+    .dealer {
+        display: none;
+    }
+    .share h1, p {
+        display: none;
+    }
+    .best {
+        height: 1700px;
+    }
+    .sellers {
+        padding-left: 0px;  text-align: center;
+    }
+    .sellers2 {
+        display: block;  padding-left: 65px;
+    }
+    .two, .three, .four {
+        margin-top: 150px;
+    }
+    .one, .two, .three, .four {
+        height: 200px;
+    }
+    .task {
+        height: 60px;  text-align: center;  padding-left: 0px;  padding-top: 20px;
+    }
+    .task h6 {
+        font-size: 20px;  font-family: 'Signika';
+    }
+    .pro {
+        margin-top: 100px;
+    }
+    .loved {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .first-nav, .second-nav {
+        display: none;
+    }
+    .ham {
+        display: block;
+    }
+    .branch h1 {
+        font-size: 40px;
+    }
+    .shop, .chairs, .desk, .access, .work, .bundles, .sale, .none, .design, .bag {
+        display: none;
+    }
+    .furn {
+        padding-left: 0px;  width: 405px;   text-align: center;
+    }
+    .build {
+        width: 405px;;
+    }
+    .brands {
+        display: block;  width: 425px;  text-align: center;
+    }
+    .goo, .shopify, .baron, .more {
+        padding-left: 0px;
+    }
+    .hometeam {
+        display: block;  padding-left: 25px; 
+    }
+    .home, .team {
+        width: 375px;  height: 375px;
+    }
+    .team {
+        margin-top: 20px;
+    }
+    .arrow {
+        display: none;
+    }
+    .explore, .plore, .see {
+        display: none;
+    }
+    .we {
+        display: none;
+    }
+    .support {
+        display: none;
+    }
+    .direct {
+        display: block;  height: 150px;
+    }
+    .share {
+        width: 425px;  text-align: center;
+        padding-top: 0px;  height: 100px;
+    }
+    .dealer {
+        display: none;
+    }
+    .share h1, p {
+        display: none;
+    }
+    .best {
+        height: 1700px;
+    }
+    .sellers {
+        padding-left: 0px;  text-align: center;
+    }
+    .sellers2 {
+        display: block;  padding-left: 85px;
+    }
+    .two, .three, .four {
+        margin-top: 150px;
+    }
+    .one, .two, .three, .four {
+        height: 200px;  
+    }
+    .task {
+        height: 60px;  text-align: center;  padding-left: 0px;  padding-top: 20px;
+    }
+    .task h6 {
+        font-size: 20px;  font-family: 'Signika';
+    }
+    .pro {
+        margin-top: 100px;
+    }
+    .loved {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .ham {
+        display: block;
+    }
+    .branch h1 {
+        font-size: 40px;
+    }
+    .shop, .chairs, .desk, .access, .work, .bundles, .sale, .none, .design, .bag {
+        display: none;
+    }
+    .home, .team {
+        width: 345px;  height: 345px;
+    }
+    .plore {
+        gap: 10px;
+    }
+    .plore1, .plore2, .plore3 {
+        width: 240px;  height: 350px;
+    }
+    .we {
+        height: 750px;
+    }
+    .do {
+        display: block; 
+    }
+    .team3 {
+        margin-top: 60px;  margin-left: 100px;
+    }
+    .direct {
+        display: block;  text-align: center;  justify-content: center;
+        padding-left: 140px;   height: 970px;
+    }
+    .dealer {
+        padding-top: 60px;
+    }
+    .share {
+        height: 300px;  padding-top: 1px;
+    }
+    .best {
+        height: 2200px;
+    }
+    .sellers {
+        padding-left: 0px;  text-align: center;
+    }
+    .sellers2 {
+        display: block;  padding-left: 260px;
+    }
+    .two, .three, .four {
+        margin-top: 180px;
+    }
+    .one, .two, .three, .four {
+        height: 300px;  
+    }
+    .task {
+        height: 155px;  padding-left: 25px;  padding-top: 23px;
+    }
+    .task h6 {
+        font-size: 20px;  font-family: 'Signika';
+    }
+    .pro {
+        margin-top: 100px;
+    }
+    .loved {
+        display: block;   width: 100%;   height: 400px;
+    }
+    .loved2 {
+        justify-content: center;  padding: 2px 120px;
+    }
+    .loved3 {
+        display: block;
+    }
+    .pics {
+        display: none;
+    }
+}

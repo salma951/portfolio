@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*general*/
+.small-text {
+    font-size: 14px;
+}
+
+.rubi {  font-family: 'Rubik', sans-serif;  font-weight: 500;  }
+
+.jost {  font-family: 'Jost', sans-serif;}
+
+.text-justify {   text-align: justify;  }
+
+
+
+/*navbar*/
+.navbar {   font-family: 'Rubik', sans-serif; font-weight: lighter;  font-size: 16px;  }
+
+.dropdown:hover .dropdown-menu {  display: block;  }
+
+.dropdown-menu a:hover {
+    background-color: white;
+}
+
+
+/*bottom arrow*/
+.arrow-up {  width: 50px;  height: 45px;  border-top-left-radius: 5px;  border-bottom-left-radius: 5px;  
+    border-top-right-radius: 0px;   border-bottom-right-radius: 0px;  background-color: #298754;  color: white;  
+    transition: background-color 0.5s;
+}
+
+.arrow-up:hover { background-color: black;}
+
+.arrow {
+    position: fixed;  bottom: 0;  right: 0;  padding-bottom: 30px; 
+}
+
+.hide {
+    opacity: 0;  transition: opacity 0.7s linear;
+   
+}
+.show {
+    opacity: 1;  transition: opacity 0.7s linear; 
+}
+
+
+  
+
+
+
+
+/*hero image and other stuff*/
+.six {  background-color: antiquewhite;  border: 1px solid rgb(252, 210, 156);  }
+
+.six:hover {  background-color: rgb(255, 253, 250);  scale: 1.025;   transition: ease;   transition-duration: 0.7s; }
+
+
+
+
+/*years*/
+.learn-btn {  font-family: 'Jost';   transition: background-color 0.5s;  }
+
+.learn-btn:hover {  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);   background-color: #298754;  color: white; }
+
+
+.image-1 {  background-image: url(https://www.difc.ie/wp-content/uploads/2018/05/debrecen-university-600x600-1.jpg);
+            width: 500px;  height: 400px;  border-radius: 30px;  }
+
+.cont {  position: relative;  }
+
+.box {  position: relative;   }
+
+.stack-top {   position: absolute; z-index: 1;  top: 20px;  right: -100px;  }
+
+.stack-top1 {   position: absolute; z-index: 1;  top: 70px;  }
+
+.client {  margin-top: 50px;  }
+
+
+
+.fadeInLeft {
+    -webkit-animation: fadeInLeft 2s both;
+    -moz-animation: fadeInLeft 2s both;
+    -o-animation: fadeInLeft 2s both;
+    animation: fadeInLeft 2s both;
+}
+
+.fadeInRight {
+    -webkit-animation: fadeInRight 2s both;
+    -moz-animation: fadeInRight 2s both;
+    -o-animation: fadeInRight 2s both;
+    animation: fadeInRight 2s both;
+}
+
+.inTop {
+    -webkit-animation: inTop 3s both;
+    -moz-animation: inTop 3s both;
+    -o-animation: inTop 3s both;
+    animation: inTop 3s both;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes inTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+/*customer reviews*/
+.first {
+    border-radius: 5px;  border: 1px solid rgb(233, 233, 233);  transition: margin-top 0.7s;
+}
+.first:hover {
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7); 
+    margin-top: -20px;
+}
+.circle {
+    width: 60px;  height: 60px;  border-radius: 30px;  border: none;  background-color: white;   border: 2px solid #298754;  padding-left: 5px;  transition: background-color 0.7s;
+}
+
+.circle:hover {
+    background-color: #298754;  color: white;
+}
+
+
+
+
+/*team member*/
+.want {
+    background-image: url(img/International\ Students.jpg);
+}
+
+
+
+
+/*map and logos*/
+.logos:hover {
+    scale: 1.05;  transition: ease;  transition-duration: 0.7s;
+}
+
+.one, .two {
+    border-right: 1px solid rgb(233, 233, 233);  border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.three {
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.four, .five {
+    border-right: 1px solid rgb(233, 233, 233);
+}
+
+
+
+
+/*featured blog*/
+.feat {
+    background-color: #f3f4f8;
+}
+
+.circle2 {
+    width: 60px;  height: 60px;  border-radius: 30px;  border: none;  background-color: #494949;  padding-left: 5px;  transition: background-color 0.7s;  color: white;
+}
+
+.circle2:hover {
+    background-color: #298754;  color: white;
+}
+.second {
+    border-radius: 5px;  transition: margin-top 0.7s;  background-color: white;  height: auto;
+}
+.second:hover {
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7); 
+    margin-top: -20px;
+}
+
+
+/*footer*/
+.foot-list .dash {
+    transition: all 0.5s;  opacity: 0;
+}
+.foot-list:hover .dash {
+    opacity: 1;  margin-left: 10px;
+}
+.input-group ::placeholder {
+    color: white;
+}
+.input-group input {
+    background-color: #1e294a;
+}
+
+.foot-list .act .dash {
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .stack-top {
+        display: none;
+    }
+    .you {
+        text-align: center;
+    }
+    .one, .two, .three, .four, .five {
+        border-bottom: 1px solid rgb(233, 233, 233);  border-right: none;
+    }
+    .card2 {
+        display: none;
+    }
+    .circle, .circle2 {
+        width: 40px;  height: 40px;  border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .stack-top {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

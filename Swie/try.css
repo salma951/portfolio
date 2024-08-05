@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*general*/
+.small-text {
+    font-size: 14px;
+}
+
+.rubi {  font-family: 'Rubik', sans-serif;  font-weight: 500;  }
+
+.jost {  font-family: 'Jost', sans-serif;}
+
+.text-justify {   text-align: justify;  }
+
+
+
+/*navbar*/
+.navbar {   font-family: 'Rubik', sans-serif; font-weight: lighter;  font-size: 16px;  }
+
+.dropdown:hover .dropdown-menu {  display: block;  }
+
+.dropdown-menu a:hover {
+    background-color: white;
+}
+
+.show {
+    opacity: 1;  transition: opacity 0.7s linear; 
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056B3;
+}
+
+#searchResults {
+    padding: 1rem;
+}
+
